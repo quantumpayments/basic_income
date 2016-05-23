@@ -1,13 +1,11 @@
 ## Introduction
 
-For today's hackday I am going to try and start to build an access controlled "route" in solid-server, which grants access to a resource based on a credit system.  If you have credits, it will show you the resource.  If not you will get a 402.  This builds a bit more functionality on the code written for the previous [hack day](http://melvincarvalho.github.io/markdown-editor/?uri=https://melvin.databox.me/.markdown/hackday/route.txt).  I'll try and incorporate the work from the web payments WG [http://w3c.github.io/webpayments-http-api/](http://w3c.github.io/webpayments-http-api/).  
-
+Basic income in portions to to exceed a daily amount
 
 ## Components
 
-The demo contains 4 components
+The demo contains 3 components
 
-* /pay -- the resource that costs 25 credits to view
 * /balance -- shows your balance
 * /faucet -- a small app that will see your balance
 * /home -- navigation and instructions
@@ -18,7 +16,7 @@ Each was deployed as a custom route with its own handler.
 
 Installation is via
 
-    git clone https://github.com/melvincarvalho/402.git
+    git clone https://github.com/quantumpayments/basic_incom.git
 
 Then run
 
@@ -48,8 +46,3 @@ Using [webcredits](https://webcredits.org/) it is possible to set up a faucet us
     credit genesis
 
     credit insert https://w3id.org/cc#coinbase 50000 '' https://w3id.org/cc#faucet
-
-
-## Demo
-
-[Demo](https://webcredits.org:3000/)

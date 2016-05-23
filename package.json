@@ -1,7 +1,7 @@
 {
   "name": "qpm_basic_income",
-  "version": "0.0.1",
-  "description": "402 payments",
+  "version": "0.0.2",
+  "description": "basic income",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
